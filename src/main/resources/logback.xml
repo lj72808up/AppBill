@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!--控制台日志输出配置-->
+    <appender name="consoleLog" class="ch.qos.logback.core.ConsoleAppender">
+        <!--对输出日志进行格式化-->
+        <encoder>
+            <!-- %d日期,%p日志级别,%file文件名,%line所在行数,%m输出的信息,%n换行 -->
+            <pattern>%d %p [%thread] (%file:%line\)- %m%n</pattern>
+            <!--字符编码-->
+            <charset>UTF-8</charset><!--此处设置字符集-->
+        </encoder>
+    </appender>
+
+    <root level="DEBUG">
+        <appender-ref ref="consoleLog"/>
+    </root>
+</configuration>

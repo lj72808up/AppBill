@@ -1,0 +1,3 @@
+url = jdbc:mysql://dmeventrw.db2.sohuno.com:3306/dm_event
+user = nw_dm_event_rw
+pass = lMkyR1DJ3JeA6Ow
